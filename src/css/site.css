@@ -132,18 +132,28 @@ padding-bottom: 1vw;
 
 }
 
+.project > p > a:link, a:visited, a:active{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1rem;
+    transition: color 500ms;
+    text-decoration: underline white 0.05rem;
+}
+
+.project > p > a:hover{
+    color: rgba(255, 255, 255, .6);
+}
+
 .line{
     display: inline-block;
     width: 90%;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     margin-top: 1rem;
-
 }
 
 .project > p{
     color: rgba(255, 255, 255, .85);
     font-size: 1vw;
-
 }
 
 /* other formating */
