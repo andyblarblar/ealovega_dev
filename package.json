@@ -1,0 +1,23 @@
+{
+  "name": "ealovega_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assets": "^3.0.1",
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^1"
+  }
+}
