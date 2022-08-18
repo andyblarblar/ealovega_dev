@@ -147,6 +147,44 @@ svg {
     font-size: 1vw;
 }
 
+/* Catagories */
+.rust-cat {
+    color: #dea584;
+    padding-left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.ts-cat {
+    color: #3178C6;
+    padding-left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.cpp-cat {
+    color: #f34b7d;
+    padding-left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.py-cat {
+    color: #3572A5;
+    padding-left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.ros2-cat {
+    color: #31466e;
+    padding-left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+.cs-cat {
+    color: #178600;
+    padding-left: 0.5vw;
+    font-size: 1.3vw;
+}
+
+
 .line {
     display: inline-block;
     width: 90%;
@@ -190,6 +228,36 @@ svg {
         font-size: 1.6vw;
     }
 
+    .rust-cat {
+        font-size: 2.3vw;
+        padding-left: 0.8vw;
+    }
+    
+    .ts-cat {
+        font-size: 2.3vw;
+        padding-left: 0.8vw;
+    }
+    
+    .cpp-cat {
+        font-size: 2.3vw;
+        padding-left: 0.8vw;
+    }
+    
+    .py-cat {
+        font-size: 2.3vw;
+        padding-left: 0.8vw;
+    }
+    
+    .ros2-cat {
+        font-size: 2.3vw;
+        padding-left: 0.8vw;
+    }
+    
+    .cs-cat {
+        font-size: 2.3vw;
+        padding-left: 0.8vw;
+    }
+
     .icons > a > svg {
         width: 6vw;
 
@@ -214,8 +282,37 @@ svg {
 
     .project > p {
         font-size: 4vw;
-
     }
+
+    .rust-cat {
+        font-size: 3.5vw;
+        padding-left: 0.4vw;
+    }
+    
+    .ts-cat {
+        font-size: 3.5vw;
+        padding-left: 0.4vw;
+    } 
+    
+    .py-cat {
+        font-size: 3.5vw;
+        padding-left: 0.4vw;
+    }
+    
+    .ros2-cat {
+        font-size: 3.5vw;
+        padding-left: 0.4vw;
+    }
+    
+    .cs-cat {
+        font-size: 3.5vw;
+        padding-left: 0.4vw;
+    }
+
+    .cpp-cat {
+            font-size: 3.5vw;
+            padding-left: 0.4vw;
+        }
 
     .icons > a > svg {
         width: 12vw;
