@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel ./public/Index.html",
-    "build": "parcel build ./public/Index.html",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
     "preinstall": "npx npm-force-resolutions"
   },
   "resolutions": {
